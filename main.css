@@ -52,7 +52,15 @@ body {
     font-family: sans-serif;
     transition: 200ms;
 }
+
 .button:hover {
     background-color:rgb(255, 255, 255);
     color: rgb(34, 34, 34);
+}
+
+#message {
+    color: rgb(107, 33, 33);
+    font-weight: bold;
+    
+    
 }
