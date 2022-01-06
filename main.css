@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+body {
+    display: grid;
+    background-color: rgb(56, 80, 65);
+    place-items: center;
+
+
+}
+
+#app {
+    margin-top: 3.5vw;
+    width: 70vw;
+    min-width: 700px;
+    border-radius: 20px;
+    height: 90vh;
+    background-color: whitesmoke;
+}
+
+#title {
+    font-weight: bolder;
+    font-size: 40px;
+    min-width: 300px;
+    text-decoration: underline;
+
+}
+
+.input {
+    border: none;
+    appearance: none;
+    background: rgb(255, 255, 255);
+    outline: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 120px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(34, 34, 34);
+    background-color:rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    transition: 200ms;
+}
+.button:hover {
+    background-color:rgb(255, 255, 255);
+    color: rgb(34, 34, 34);
+}
