@@ -15,8 +15,11 @@ body {
 #app {
     margin-top: 3.5vw;
     width: 70vw;
+    place-items: center;
     min-width: 700px;
     border-radius: 20px;
+    display: grid;
+    grid-template-rows:0.2fr 0.2fr 0.1fr 0.1fr 1fr;
     height: 90vh;
     background-color: whitesmoke;
 }
@@ -63,4 +66,9 @@ body {
     font-weight: bold;
     
     
+}
+
+#entry {
+    margin: 0;
+    padding: 0;
 }

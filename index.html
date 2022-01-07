@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="results.css">
     <title>Vue js Test</title>
 </head>
 <body>
@@ -16,6 +17,26 @@
         </div>
         <button v-on:click="GetCountry()" class='button'>Submit</button>
         <p id="message"></p>
+        <div class='Results'>
+            <p id="r-name">{{Name}}</p>
+            <p id="r-ofcname">{{OfcName}}</p>
+            <div id="details">
+                <p class="details" id="capital">Capital: {{Capital}}</p>
+                <p class="details" id="currency">Currency: {{currency}}</p>
+                <p class="details" id="continent">Continent: {{continent}}</p>
+                <p class="details" id="timezone">Timezone (UTC): {{timezone}}</p>
+                <p class="details" id="carside">Carside: {{carside}}</p>
+                <p class="details" id="continent">Languages: {{languages}}</p>
+                <p class="details" id="demonyms">Denonyms: {{Demonyms}}</p>
+                <p class="details" id="borders">Borders: {{borders}}</p>
+                <p class="details" id="independent">Sovereignty: {{isIndependent}}</p>
+                <p class="details" id="unmember">{{isUnMember}}</p>
+                <p class="details" id="landlocked">{{isLandlocked}}</p>
+            </div>
+            <p>
+                <img class="r-image" v-bind:src="flag" v-bind:alt="emoji">
+            </p>
+        </div>
     </div>
 
     <script src="https://unpkg.com/vue@next"></script>
